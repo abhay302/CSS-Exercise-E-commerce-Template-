@@ -3,10 +3,6 @@ body {
   padding: 0px;
   font-family: arial;
   color: grey;
-}
-
-#header {
-  width: 100%;
   text-align: center;
 }
 
@@ -19,12 +15,14 @@ body {
 #nav_bar li {
   float: left;
   list-style-type: none;
-  font-size: 15px;
-  padding: 10px 15px 0px 15px;
+  font-size: 12px;
+  padding: 10px 0px 0px 0px;
   height: 30px;
-  margin: 0px 0px;
 }
 
+#nav_bar li:not(#company_name) {
+  width: 50px;
+}
 
 #nav_bar li:not(#company_name):hover {
   background-color: grey;
@@ -45,7 +43,6 @@ body {
 
 #nav_bar img {
   float: right;
-  padding-bottom: 0px;
 }
 
 div#header_image img {
@@ -56,12 +53,7 @@ div#header_image img {
 }
 
 .product {
-  width: auto;
   margin: 50px 0px;
-}
-
-.product_container {
-  text-align: center;
 }
 
 .product_container .product_details {
@@ -74,10 +66,6 @@ div#header_image img {
 
 .product_description {
   margin-top: 25px;
-}
-
-#brand_container {
-  text-align: center;
 }
 
 #brand_container #brands {
