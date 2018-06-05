@@ -16,8 +16,8 @@ body {
   float: left;
   list-style-type: none;
   font-size: 12px;
-  padding: 10px 0px 0px 0px;
-  height: 30px;
+  padding: 5px 0px 0px 0px;
+  height: 20px;
 }
 
 #nav_bar li:not(#company_name) {
